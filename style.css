@@ -1,0 +1,28 @@
+body{ 
+    background-color: girgb(88, 10, 104);
+    color: violet;
+}
+
+h1{
+    color: rgb(197, 99, 156);
+    text-align: center;}
+    .results-row {
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+}
+button:active {
+    background-color: rgb(48, 56, 83);
+    color: rgb(179, 49, 196);
+}
+
+.results-column {
+    display: flex;
+    flex-direction: column;
+}
+
+button.clear {
+    width: 60px;
+    height: 30px;
+    align-self: center;
+}

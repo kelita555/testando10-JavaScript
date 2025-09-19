@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<link rel="stylesheet" href="style.css">
+
+<body>
+    
+     <h1>testando exercícios JavaScript</h1>
+    <section>
+   
+  
+        <h2>1.- Positivo ou Negativo</h2>
+        <p>Resultado </p>
+
+        <input type="number" id="ex-1" placeholder="Digite um número">
+        <button type="submit" onclick="positiveOrNegative()">Enviar</button>
+      <div id="result-ex1"></div>
+     </section>
+
+<section>
+    <h2>2.-Verificador de Maioridade </h2>
+    <p>Maior de idade</p>
+    <input type="number" id="ex-2" placeholder="Digite sua idade">
+    <button type="submit" onclick="checkMajority()">Enviar</button>
+     <div id="resultIdade" class="results-row"></div>
+</section>
+
+
+<section>
+    <h2>3.-Contagem Progressiva</h2>
+ <button onclick="ContagemProgressiva()">começar Contagem</button>
+
+  <div id="resultcontagem" class="results-row"></div>
+</section>
+
+<section>
+    <h2>4.-Tabuada</h2>
+    <input type="number" id="ex-4" placeholder="Digite um número">
+    <button type="submit" onclick="tabuada()">Enviar</button>
+     <div id="resultabu" class="results-vertical"></div>
+
+</section>
+
+       
+  <section>
+     <h2>5.-Contagem Regressiva</h2>
+        <button onclick="ContagemRegressiva()">começar Contagem Regressiva</button>
+</section>
+     <div id="ContagemRegressiva" class="results"></div>
+
+        
+    
+  <section>
+     <h2>6.-Digitação de Senha</h2>
+     <button onclick="SenhaCorreta()">Tentar De Novo</button>
+        </section>
+         <div id="result" class="results"></div>
+
+    <section>
+        <h2>7.-Soma de dois Números</h2>
+
+      <button onclick="Soma()">Aperte para somar</button>
+    <div id="resultSoma" class="results-column"></div>
+    </section>
+
+        <section>
+            <h2>8.-Verificar se Número é Par</h2>
+             <input type="number" id="ex-8" placeholder="Digite um número">
+        <button type="submit" onclick="ehPar()">Enviar</button>
+    
+        <div id="resultPar" class="results-column"></div>
+        </section>
+
+    <section>
+        <h2>9.-Somar todos os Números até um Limite</h2>
+        <input type="number" id="ex-9" placeholder="Digite um número">
+        <button onclick="somarAteLimite()">Somar até o limite</button>
+<div id="resultSomaLimite"></div>
+    </section>
+    
+<section>
+<h2>10.-Verificar se um Número é primo </h2>
+<input type="number" id="ex-10" placeholder="Digite um número">
+        <button type="submit" onclick="primo()">Enviar</button>
+    
+        <div id="resultPrimo" class="results-row"></div>
+
+    </section>
+    <script type="module" src="exercicios.js"></script>
+    </body>
+</html>
